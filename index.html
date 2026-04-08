@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title data-i18n="title">Chic Happens - Fashion Website</title>
+  <title data-i18n="title">Oceanview Hotel</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,14 +11,14 @@
 <header class="navbar">
   <div class="container">
     <a href="index.html" class="logo">
-  <img src="assets/images/logo.png" alt="Chic Happens Logo">
+      <img src="assets/images/logo.png" alt="Oceanview Hotel Logo">
     </a>
     <nav>
       <ul>
         <li><a href="index.html" data-i18n="nav.home">Home</a></li>
-        <li><a href="collections.html" data-i18n="nav.collections">Collections</a></li>
+        <li><a href="rooms.html" data-i18n="nav.rooms">Rooms</a></li>
         <li><a href="about.html" data-i18n="nav.about">About Us</a></li>
-        <li><a href="lookbook.html" data-i18n="nav.lookbook">Lookbook</a></li>
+        <li><a href="features.html" data-i18n="nav.features">Hotel Features</a></li>
         <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
       </ul>
     </nav>
@@ -29,58 +29,44 @@
   </div>
 </header>
 
-<!-- Hero Section -->
 <section class="hero">
   <div class="image-tooltip-container">
-    <img src="assets/images/en/hero.jpg" data-i18n-img="hero.img" alt="Feel the Summer Breeze" alt-key="hero.title">
-    <div class="tooltip-text" data-i18n="hero.title">Feel the Summer Breeze</div>
+    <img src="assets/images/en/hero.jpg" data-i18n-img="hero.img" alt="Wake Up to the Ocean" alt-key="hero.title">
+    <div class="tooltip-text" data-i18n="hero.title">Wake Up to the Ocean</div>
   </div>
   <div class="hero-text">
-    <h1 data-i18n="hero.title">Feel the Summer Breeze</h1>
-    <p data-i18n="hero.subtitle">Catch the latest trends before they vanish like sand through your fingers</p>
-    <a href="collections.html" class="cta-btn" data-i18n="hero.cta">Explore Collection</a>
+    <h1 data-i18n="hero.title">Wake Up to the Ocean</h1>
+    <p data-i18n="hero.subtitle">Where every stay is smooth sailing and every sunset steals the show</p>
+    <a href="rooms.html" class="cta-btn" data-i18n="hero.cta">Explore Rooms</a>
   </div>
 </section>
 
-<!-- Featured Products -->
 <section class="featured">
-  <h2 data-i18n="home.featured">Featured Collections</h2>
+  <h2 data-i18n="home.featured">Featured Rooms</h2>
 
   <div class="product-grid">
-    
     <div class="product-card">
       <div class="image-tooltip-container">
-        <img 
-          src="assets/images/en/product1.jpg"
-          data-i18n-img="product1.img"
-          alt="Sunset Dress"
-          alt-key="product1.name"
-        >
-        <div class="tooltip-text" data-i18n="product1.name">
-          Sunset Dress
-        </div>
+        <img src="assets/images/en/hotel_room1.jpg"
+             data-i18n-img="product1.img"
+             alt="Standard Room"
+             alt-key="product1.name">
+        <div class="tooltip-text" data-i18n="product1.name">Standard Room</div>
       </div>
 
-      <h3 data-i18n="product1.name">Sunset Dress</h3>
-
+      <h3 data-i18n="product1.name">Standard Room</h3>
       <p data-i18n="product1.desc">
-        Turn heads with this dazzling dress — perfect for the beach or a night out
+        A cozy space where comfort meets practicality — no bells and whistles, but it hits the sweet spot without missing a beat
       </p>
-
-      <p class="price" data-i18n="product1.price">$120</p>
-
-      <p class="sizes" data-i18n="product1.sizes">
-        Sizes: S, M, L, XL
-      </p>
+      <p class="price" data-i18n="product1.price">From $90 / night</p>
+      <p class="sizes" data-i18n="product1.sizes">Queen bed • City view • Free Wi-Fi</p>
     </div>
-
   </div>
 </section>
 
-<!-- Newsletter -->
 <section class="newsletter">
   <h2 data-i18n="newsletter.title">Stay in the Loop</h2>
-  <p data-i18n="newsletter.subtitle">Sign up for exclusive drops and insider tips — don’t miss the boat!</p>
+  <p data-i18n="newsletter.subtitle">Get exclusive offers — don’t let the tide pass you by!</p>
   <form>
     <input type="email" placeholder="Your email">
     <button type="submit" data-i18n="newsletter.cta">Subscribe</button>

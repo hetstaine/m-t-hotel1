@@ -94,10 +94,13 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   width: 90%;
   max-width: 800px;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 20px 30px;
+  border-radius: 12px;
 }
 
 .cta-btn {
